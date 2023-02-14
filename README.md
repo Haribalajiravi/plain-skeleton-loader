@@ -29,3 +29,4 @@ In above code, we need to pass isLoading prop as mandatory since, that is the ho
 
 1. It can only transform the first level of its children to keep it very simple and stable.
 2. Detailed skeleton can be formed only if we provide proper measurement to the skeletons children. If we dont have a proper measurements, it will take default min and max width/height
+3. It cannot be able to turn complex in-house custom components into pulse loader. Since its hard to extract the content of it and also we cannot guess how much complex it can be inside.
