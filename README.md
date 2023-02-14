@@ -2,11 +2,11 @@
 
 ## To view the output, follow the below link
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-9m1rrg)
+[StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-9m1rrg)
 
 # Approach
 
-A simple approach to deal this problem with functional component prop children can take the shadow of the exact elements and setting up some default width and height if there are no style has been set to each element. By this way can simulate the exact element transforming it as loader to show under we getting acknowledgment from parent component.
+A simple approach to deal this problem is to use prop children to take the shadow of the child element and setting up some default width and height if there are no style has been set to each element. By this way can simulate the exact element to transforming it as loader to show until we getting acknowledgment from parent component.
 
 # Simple example with explanation
 
